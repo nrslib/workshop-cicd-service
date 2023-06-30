@@ -1,0 +1,30 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+*.log
+
+.terraform.lock.hcl
+
+# .tfbackend files
+*.tfbackend
+
+# create from main.tf
+*.pem
+
+**/out/*
